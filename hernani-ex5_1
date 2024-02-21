@@ -1,0 +1,17 @@
+//This line includes the input-output stream
+#include <iostream>
+using namespace std;
+
+// This line declares the beginning of the main function
+int main() {
+    //This line declares an integer variable n without initializing it.
+    int n;
+    //prompting the user to enter an integer.
+    cout << "Enter an integer: ";
+    cin >> n;
+    //This line starts a for loop that initializes an integer variable
+    for (int i = 1; i <= n; i++) {
+        cout << i << " ";
+    }
+     //This line indicates the end of the main
+    return 0;
