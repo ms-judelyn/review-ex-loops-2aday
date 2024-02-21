@@ -1,0 +1,10 @@
+
+#include <iostream>  // Includes the iostream library for input and output operations.
+
+int main() {  // Declares the main function, the entry point of the program.
+    
+    std::cout << "Numbers from 10 to 1 in descending order:" << std::endl;  // Outputs a message indicating the following numbers will be printed in descending order.
+    for (int i = 10; i >= 1; --i) {  // Initiates a loop starting from 10, printing numbers in descending order until reaching 1.
+        std::cout << i << std::endl;  // Outputs the current value of i within the loop.
+    }
+    return 0;  // Indicates successful termination of the program.
