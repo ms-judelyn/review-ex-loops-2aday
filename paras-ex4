@@ -1,0 +1,43 @@
+#include <iostream> 
+// include the library for input and output
+
+int main() {
+    // declare variables
+    double billAmount, serviceCharge, discountedAmount, finalAmount, discountRate;
+    int age;
+
+    // ask for user input
+    std::cout << "Enter your age: ";
+    std::cin >> age;
+    std::cout << "Enter the total bill amount: ";
+    std::cin >> billAmount;
+
+    // calculate service charge
+    serviceCharge = billAmount * 0.15; 
+// 15% of total bill
+
+    // determine discount rate based on age
+    if (age >= 10 && age <= 17) {
+        discountRate = 0.15; 
+// 15% discount for minors
+    } else if (age >= 65) {
+        discountRate = 0.30; 
+// 30% discount for senior citizens
+    } else {
+        discountRate = 0; 
+// no discount for adults
+    }
+
+    // calculate discounted amount
+    discountedAmount = billAmount - (billAmount * discountRate);
+
+    // calculate final amount
+    finalAmount = discountedAmount + serviceCharge;
+
+    // display results
+    std::cout << "Service charge: $" << serviceCharge << std::endl;
+    std::cout << "Discounted amount: $" << discountedAmount << std::endl;
+    std::cout << "Final total amount to be paid: $" << finalAmount << std::endl;
+
+    return 0;
+}
