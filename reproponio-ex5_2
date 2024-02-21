@@ -1,0 +1,14 @@
+// Include the input/output stream library
+#include <iostream>
+// Use the standard namespace
+using namespace std;
+// Main function, the entry point of the program
+int main() {
+// Start a for loop with i initialized to 10, loop until i is greater than or equal to 1, decrement i by 1 in each iteration
+    for (int i = 10; i >= 1; i--) {
+// Print the value of i followed by a new line
+          cout << i << endl;
+    }
+// Return 0 to indicate successful execution of the program
+    return 0;
+}
