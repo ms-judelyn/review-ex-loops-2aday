@@ -1,0 +1,16 @@
+#include <iostream>
+
+int main() {
+    // Initialize i to 10
+    int i = 10;
+
+    // Use a do-while loop to print numbers from 10 to 1
+    do {
+        std::cout << i << "\n";
+        i--;
+    } while (i >= 1);
+    // Print the current value of i followed by a newline
+    // Decrement i to move to the next number
+    // Continue the loop as long as i is greater than or equal to 1
+    return 0; //To indicate successful execution 
+}
