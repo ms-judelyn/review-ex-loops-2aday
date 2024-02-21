@@ -1,0 +1,15 @@
+#include <iostream>
+
+int main() {
+    int num;
+    std::cout << "Enter an integer: ";
+    std::cin >> num;
+
+    std::cout << "Numbers up to " << num << ":" << std::endl;
+    for (int i = 1; i <= num; i++) {
+        std::cout << i << " ";
+    }
+    std::cout << std::endl;
+
+    return 0;
+}
