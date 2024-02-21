@@ -1,0 +1,28 @@
+// contains standard input/output library functions which are needed to get data from the screen
+#include <iostream>
+
+// use the standard namespace to use elements without having prefix std:: of cout, cin, endl
+using namespace std;
+
+// the entry point where it marks where program starts and ends
+int main () {
+
+// declares a variable to hold a value
+    int num;
+
+//displays the “ Enter an Integer:” on the screen to prompt the user to enter an integer
+    cout << "Enter an integer: ";
+
+//responsible for reading input from the user storing it in the variable 'num'
+    cin >> num;
+
+    //to repeatedly execute until the condition given by the user is met
+    for (int i = 0; i <= num ; ++i) {
+
+// displays the output
+        cout << i << endl;
+    }
+
+//ends and indicates the program is executed properly	
+    return 0;
+}
