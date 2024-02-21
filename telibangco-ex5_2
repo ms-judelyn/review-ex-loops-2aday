@@ -1,0 +1,26 @@
+// contains input and output functions to be able to display and get data from the screen
+#include <iostream>
+
+//contains input and output operations and containers
+using namespace std;
+
+//entry point of the program, where execution begins 
+int main(){
+	
+	//stores the maximum value which is 10
+	int max=10;
+	
+	//condition that needs to be met
+	while (max>=1) {
+	    
+	    //displays the maximum number
+	    cout <<max<<endl;
+	    
+	    //reduces the value of max by 1 in each iteration in the loop
+	    max--;
+	}
+	
+	  //ends and indicates that the program is executed successfully
+	return 0;
+	
+}
