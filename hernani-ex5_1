@@ -1,0 +1,20 @@
+//this line includes the input-output stream
+#include <iostream>
+// declares the use of the standard namespace.
+using namespace std;
+
+//The main function begins here
+int main() {
+     //Declares an integer variable n.
+    int n;
+    //prompting the user to enter an integer.
+    cout << "Enter an integer: ";
+    //input for the integer n.
+    cin >> n;
+     //Starts a loop that prints numbers from 1 to n.
+    for (int i = 1; i <= n; i++) {
+        cout << i << " ";
+    }
+   // lndicate successful completion of the program
+    return 0;
+}
