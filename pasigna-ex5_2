@@ -1,0 +1,25 @@
+// contains standard input/output library functions which are needed to get data from the screen
+#include <iostream>
+
+// use the standard namespace to use elements without having prefix std:: of cout, cin, endl
+using namespace std;
+
+// the entry point where it marks where program starts and ends
+int main () {
+    
+    // declares a variable max initializing a value of 10
+    int max = 10;
+    
+    // condition that needs to be met
+    while ( max >= 1)  {
+        
+        // displays the max number
+        cout << max << endl;
+        
+        // reduces the value of max by 1 on each iteration of the loop
+        max-- ; 
+    }
+   
+    //ends and indicates that the program is executed successfully	 
+    return 0;
+}
