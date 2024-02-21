@@ -1,0 +1,26 @@
+//include the content of iostream file
+#include <iostream>
+
+//use the standard namespace 
+using namespace std;
+
+//define main function 
+int main() {
+    // Declare a variable to store the user's input
+    int integer;
+    
+    // Ask the user to inout an integer
+    cout << "Input an integer: ";
+    
+    // Read the user's input and store it in the 'integer' variable
+    cin >> integer;
+
+    // Use a 'for' loop to iterate from 1 up to the entered integer 
+    for (int i = 1; i <= integer; ++i) {
+        // Print each number in the sequence followed by a space
+        cout << i << " ";
+    }
+
+    // Terminates the main function and return 0. it indicates successful completion of the program
+    return 0;
+}
