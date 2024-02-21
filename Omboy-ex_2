@@ -1,0 +1,25 @@
+// include  content of iostream file
+#include <iostream>
+
+//use standard namespace
+using namespace std;
+
+//define main function 
+int main() {
+
+// Initialize max to 10
+    int max= 10; 
+    // Do-while loop to print numbers from 10 down to 1
+    do {
+        // Print the current value of max
+        cout << max << endl;
+        
+        //decrement max
+        max--; 
+        
+        // Continue looping while max is greater than or equal to 1
+    } while (max>= 1); 
+    
+    //Terminates the main function and return 0 to indicate that the program executed successfully 
+    return 0;
+}
