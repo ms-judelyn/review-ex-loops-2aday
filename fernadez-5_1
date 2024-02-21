@@ -1,0 +1,25 @@
+// this line includes the input/output library
+#include <iostream> 
+//use standard namespace
+using namespace std;
+//defines the main function
+int main() {
+    int integer;
+//  // Prompt the user to enter an integer
+    cout << "input an integer : ";
+  // Read the user input and store it in the variable integer
+    cin >> integer;
+ // Print a message indicating the purpose of the program
+    cout << "numbers: ";
+    // Start a loop that iterates from 1 to the user-given integer
+    for (int i = 0; i <= integer; i++) {
+    // Print the current value of i
+        cout << i << " ";
+        
+    }
+    
+     // Print a new line after the loop is finished
+    cout << endl;
+    // Indicate that the program has successfully finished
+    return 0;
+}
