@@ -1,0 +1,16 @@
+
+#include <iostream>  // Includes the iostream library for input and output operations.
+
+using namespace std;  // Specifies that the program will use the std namespace for standard library elements.
+
+int main() {  // Declares the main function, the entry point of the program.
+    
+    int i = 10;  // Initializes an integer variable i to 10.
+
+    while (i >= 1) {  // Starts a while loop that continues as long as i is greater than or equal to 1.
+        cout << i << endl;  // Outputs the current value of i followed by a newline character.
+        i--;  // Decrements the value of i by 1.
+    }
+
+    return 0;  // Indicates successful termination of the program.
+}
