@@ -1,0 +1,19 @@
+// this line includes the input/output library
+#include <iostream>
+//defines the main function 
+int main() {
+    // Print a message indicating the purpose of the program
+    std::cout << "Numbers from 10 to 0 in descending order:" << std::endl;
+
+    // Start a loop that iterates from 10 to 0, decreasing by 0, in each iteration
+    for (int i = 10; i >= 0; i--) {
+        // Print the current value of i
+        std::cout << i << " ";
+    }
+
+    // Print a new line after the loop is finished
+    std::cout << std::endl;
+
+    // Indicate that the program has successfully finished
+    return 0;
+}
