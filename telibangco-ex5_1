@@ -1,0 +1,29 @@
+// contains input and output functions to be able to display and get data from the screen
+#include <iostream>
+
+//contains input and output operations and containers
+using namespace std;
+
+//entry point of the program, where execution begins 
+int main(){
+    
+   //stores the user's integer
+    int integer;
+    
+    //prompts the user to enter the user's age
+    cout << " Please enter a number : ";
+    
+    //responsible for reading the input from the user and stores it in the variable
+    cin>>integer;
+    
+    //checks the limit
+    for ( int i = 0; i<=integer;  i++){
+    
+    //display the user's given integer
+        cout <<i<<endl;
+    }
+    
+    //ends and indicates that the program is executed successfully
+    return 0;
+   
+}
