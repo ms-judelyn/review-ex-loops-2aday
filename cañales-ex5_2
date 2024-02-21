@@ -1,0 +1,15 @@
+While:
+//This line includes the input/output stream
+#include <iostream>
+
+//This line declares the beginning of the main function 
+int main() {
+    // Loop through numbers from 10 to 1
+    for (int i = 10; i >= 1; i--) {
+        // Print the current value of 'i' followed by a newline
+        std::cout << i << std::endl;
+    }
+
+    // Return 0 to indicate successful program execution
+    return 0;
+}
