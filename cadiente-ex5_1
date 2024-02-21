@@ -1,0 +1,26 @@
+// Include the necessary library for input/output operations
+#include <iostream>
+
+// Use the standard namespace to avoid explicitly specifying it
+using namespace std;
+
+// The main function where the program execution starts
+int main() {
+    // Prompt the user to enter an integer
+    cout << "Enter an integer: ";
+
+    // Declare the variable to store the user-given integer
+    int number;
+
+    // Read the user input and store it in 'number'
+    cin >> number;
+
+    // Print each number from 1 to 'number'
+    for (int i = 1; i <= number; i++) {
+        cout << i << endl;
+    }
+
+    // Indicate successful program execution
+    return 0;
+// End of int main()
+}
