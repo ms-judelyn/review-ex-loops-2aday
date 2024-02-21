@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Input an integer from the user
+    int n;
+    cout << "Enter an integer: ";
+    cin >> n;
+
+    // Initialize a variable i to 0
+    int i = 0;
+
+    // While i <= n and i <= 5, print i and increment i by 1
+    while (i <= n && i <= 5) {
+        cout << i << endl;
+        i++;
+    }
+
+    return 0;
+}
